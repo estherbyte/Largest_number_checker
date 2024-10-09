@@ -1,0 +1,47 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    min-height: 100vh;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    background-image: linear-gradient(to bottom, black,
+            grey,
+            black);
+    padding: 50px 20px;
+    color: white;
+}
+
+.numbers {
+    font-size: 60px;
+
+}
+
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.input {
+    width: 280px;
+    height: 30px;
+    padding-left: 15px;
+}
+
+.subtn {
+    width: 90px;
+    height: 30px;
+}
